@@ -1,2 +1,2 @@
 # Particle Gravity Simulation
-Currently working with GLFW implementation while exploring CMake
+Pivoting away from glfw into sfml currently
