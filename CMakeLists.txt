@@ -9,4 +9,4 @@ include_directories(/opt/homebrew/Cellar/sfml/2.6.1/include)
 
 find_package(SFML 2.6.1 COMPONENTS system window graphics REQUIRED)
 include_directories(${SFML_INCLUDE_DIRS})
-target_link_libraries(exec sfml-system sfml-window sfml-graphics sfml-audio sfml-network)
+target_link_libraries(exec sfml-system sfml-window sfml-graphics)
