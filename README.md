@@ -1,2 +1,2 @@
 # Particle Gravity Simulation
-Pivoting away from glfw into sfml currently
+Working semi accurate open-space gravity sim using SFML
