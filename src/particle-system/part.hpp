@@ -8,14 +8,14 @@ struct Particle {
   sf::Vector2f velocity;
   float mass;
 
-void velocity_update(sf::Vector2f force) {
+  void velocity_update(sf::Vector2f &force) {
     sf::Vector2f acceleration = force / mass;
-    float dt = .01f;
-    velocity += acceleration * dt;
+    velocity += acceleration;
   }
 
   void pos_update() {
-  particle.setPosition(particle.getPosition() + velocity*.1f);
+    const float scale = 0.0025f;
+    particle.setPosition(particle.getPosition() + velocity * scale);
   }
 };
 
