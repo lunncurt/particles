@@ -2,8 +2,6 @@
 #include "particle-system/physics.hpp"
 #include <SFML/Graphics.hpp>
 
-using namespace sf;
-
 int main() {
 
   sf::RenderWindow window(sf::VideoMode(1920, 1080), "Particle Sim");
