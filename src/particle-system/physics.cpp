@@ -12,7 +12,7 @@ sf::Vector2f gravitational_force(Particle p, Particle q) {
   float y1 = p.particle.getPosition().y;
   float y2 = q.particle.getPosition().y;
 
-  float distance = sqrt(pow((x2 - x1), 2) + pow((y2 - y1), 2));
+  float distance = sqrt(pow((x2 - x1), 2) + pow((y2 - y1), 2)) * 5.f + 20;
   float g_constant = 6.67430e-11;
   float f_mag = g_constant * p.mass * q.mass * (1 / (distance * distance));
 

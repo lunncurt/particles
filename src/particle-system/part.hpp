@@ -2,7 +2,6 @@
 
 #include <SFML/Graphics.hpp>
 #include <vector>
-#include <iostream>
 
 struct Particle {
   sf::CircleShape particle;

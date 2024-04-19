@@ -1,7 +1,6 @@
 #include "particle-system/part.hpp"
 #include "particle-system/physics.hpp"
 #include <SFML/Graphics.hpp>
-#include <iostream>
 
 using namespace sf;
 
@@ -9,7 +8,7 @@ int main() {
 
   sf::RenderWindow window(sf::VideoMode(1920, 1080), "Particle Sim");
 
-  Particles p(80);
+  Particles p(40);
 
   sf::Clock clock;
   sf::Time timePerFrame = sf::seconds(1.f / 60.f); // 60 fps
